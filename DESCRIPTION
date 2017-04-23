@@ -1,11 +1,10 @@
 Package: bricks
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Useful tools for using OSX commands. Ex. movie encoding. 
 Version: 0.1.0
-Author: Who wrote it
+Author: Jani Miettinen
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: Bunch of bricks what I use to help life with OSX and video transferring, networking and other stuff.
+License: MIT 
 Encoding: UTF-8
 LazyData: true
