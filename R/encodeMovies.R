@@ -4,9 +4,9 @@ encodeMovies <- function(sourceFolder,
                          destinationFolder,
                          pattern = ".MP4",
                          recursive = TRUE,
-                         overwrite = FALSE)
-  {
+                         overwrite = FALSE){
   # formats <- c(".MP4", ".mp4", ".mov") #TODO voidaanko kayttaa vain lowercaseja?
+  pattern <- toupper(pattern)
   ## Check if source is ok
   if(dir.exists(sourceFolder)){
     ## Check if destination exist otherwise create folder
@@ -48,3 +48,17 @@ encodeMovies <- function(sourceFolder,
     }
 
 }
+
+
+#### FOR TESTING
+# # #
+# sourceFolder <- "//Volumes/NONAME/DCIM/128GOPRO/"
+# sourceFolder <- "//Volumes/EOS_DIGITAL/DCIM/127GOPRO/"
+# destinationFolder <- "~/Movies/raw/"
+# recursive = TRUE
+# encodeMovies(sourceFolder, destinationFolder)
+#
+#
+# ##
+# list.files("//Volumes/NO NAME/DCIM/", recursive = TRUE)
+# encodeMovies("//Movies/", "../")

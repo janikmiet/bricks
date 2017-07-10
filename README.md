@@ -1,5 +1,5 @@
 # README bricks
 
-Set of useful tools what I use with OSX.
+Set of useful functions what I use to control my work.
 
 # END
