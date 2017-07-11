@@ -1,5 +1,5 @@
 # README bricks
 
-Set of useful functions what I use to control my work.
+Set of useful random functions what I use to control my work.
 
 # END

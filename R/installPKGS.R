@@ -1,6 +1,6 @@
-#' @title Install best packages
-#' @description Installs necessary packages to R.
-#' @param PKGS is vector of packages™
+#' @title Install basic packages
+#' @description Installs basic packages to R.
+#' @param PKGS is vector of packages
 #' @author Jani Miettinen <jani.k.miettinen@gmail.com>
 #' @rdname installPKGS
 

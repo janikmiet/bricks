@@ -1,7 +1,9 @@
+#' @title Backup filesystem
+#' @description Creates backup ZIP-file from root-folder. Exludes csv, rds, rdata, sas7bdat and zip.
+#' @author Jani Miettinen <jani.k.miettinen@gmail.com>
+#' @rdname makeOLDBCKP
+#'
 
-## mytMAKEBCKP --------------------------------------------------------------------------------------------
-# This script makes zipped backup copy of users folder without RDS, RDATA or CSV datafiles.
-# Updated: 29-03-2017
 
 makeOLDBCKP <- function(x){
 

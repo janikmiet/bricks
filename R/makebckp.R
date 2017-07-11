@@ -5,8 +5,6 @@
 #' @param exlude vector of file extensions to exclude
 #' @rdname makeBCKP
 #'
-# This script makes zipped backup copy of users folder without RDS, RDATA or CSV datafiles.
-# Updated: 10-07-2017
 
 makeBCKP <- function(folder = "~/",
                      exclude = c(".csv", ".rds", ".rdata", ".sas7bdat", ".zip")){

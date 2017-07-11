@@ -1,4 +1,4 @@
-#' @title Copy files from folder to another folder
+#' @title Copy files
 #' @description Copies file structure from source to destination.
 #' @param source source folder
 #' @param destination destination folder
@@ -18,7 +18,7 @@ copyFiles <- function(source, destination, overwrite = FALSE, file.delete = FALS
               copy.mode = TRUE)
     if(file.delete) file.remove(flies)
   }else{
-    print("Check source and destination again.")
+    print("Check source and destination.")
   }
 
 }

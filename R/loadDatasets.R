@@ -1,8 +1,10 @@
 #' @title Load datasets from folder
 #' @description Loads all dataset from folder
+#' @param format file format to load; rds or rdata
 #' @author Jani Miettinen <jani.k.miettinen@gmail.com>
 #' @rdname loadDatasets
 #'
+
 # NOT TESTED!!!
 # function which loads all datasets from folder
 # currently works with rds and rdata files
