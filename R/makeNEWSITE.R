@@ -7,7 +7,7 @@
 #' @rdname makeNEWSITE
 
 makeNEWSITE <- function(destination, overwrite = FALSE){
-  file.copy(system.file("newsite/siteZipped.zip", package="mytools"), destination)
+  file.copy(system.file("newsite/siteZipped.zip", package="bricks"), destination)
   unzip(zipfile = paste0(destination, "siteZipped.zip"), exdir = destination, overwrite = overwrite)
   file.remove(paste0(destination, "siteZipped.zip"))
   # Kysy, jos kansiosta löytyy samanniminen tiedosto
