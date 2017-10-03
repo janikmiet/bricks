@@ -5,7 +5,7 @@
 #'
 # Publish my notes
 pubMYNOTES <- function(){
-  if(dir.exists("//Volumes/public/webpage/" & "~/RKoti/dokumentit/mynotes/")){
+  if(dir.exists("//Volumes/public/webpage/") & dir.exists("~/RKoti/dokumentit/mynotes/")){
     curWD <- getwd()
     setwd("~/RKoti/dokumentit/mynotes/")
     rmarkdown::render_site()
